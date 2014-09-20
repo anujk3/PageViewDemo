@@ -14,6 +14,11 @@
 		655D897C19CE0A4F00BF0350 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655D897B19CE0A4F00BF0350 /* Images.xcassets */; };
 		655D897F19CE0A4F00BF0350 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655D897D19CE0A4F00BF0350 /* LaunchScreen.xib */; };
 		655D898B19CE0A4F00BF0350 /* PageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D898A19CE0A4F00BF0350 /* PageViewDemoTests.m */; };
+		655D899619CE0C4300BF0350 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655D899519CE0C4300BF0350 /* PageContentViewController.m */; };
+		655D899B19CE15CE00BF0350 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 655D899719CE15CE00BF0350 /* page1.png */; };
+		655D899C19CE15CE00BF0350 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 655D899819CE15CE00BF0350 /* page2.png */; };
+		655D899D19CE15CE00BF0350 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 655D899919CE15CE00BF0350 /* page3.png */; };
+		655D899E19CE15CE00BF0350 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = 655D899A19CE15CE00BF0350 /* page4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		655D898419CE0A4F00BF0350 /* PageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655D898919CE0A4F00BF0350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655D898A19CE0A4F00BF0350 /* PageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewDemoTests.m; sourceTree = "<group>"; };
+		655D899419CE0C4300BF0350 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		655D899519CE0C4300BF0350 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		655D899719CE15CE00BF0350 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		655D899819CE15CE00BF0350 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		655D899919CE15CE00BF0350 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		655D899A19CE15CE00BF0350 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,10 @@
 		655D896D19CE0A4F00BF0350 /* PageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				655D899719CE15CE00BF0350 /* page1.png */,
+				655D899819CE15CE00BF0350 /* page2.png */,
+				655D899919CE15CE00BF0350 /* page3.png */,
+				655D899A19CE15CE00BF0350 /* page4.png */,
 				655D897219CE0A4F00BF0350 /* AppDelegate.h */,
 				655D897319CE0A4F00BF0350 /* AppDelegate.m */,
 				655D897519CE0A4F00BF0350 /* ViewController.h */,
@@ -89,6 +104,8 @@
 				655D897B19CE0A4F00BF0350 /* Images.xcassets */,
 				655D897D19CE0A4F00BF0350 /* LaunchScreen.xib */,
 				655D896E19CE0A4F00BF0350 /* Supporting Files */,
+				655D899419CE0C4300BF0350 /* PageContentViewController.h */,
+				655D899519CE0C4300BF0350 /* PageContentViewController.m */,
 			);
 			path = PageViewDemo;
 			sourceTree = "<group>";
@@ -201,7 +218,11 @@
 			files = (
 				655D897A19CE0A4F00BF0350 /* Main.storyboard in Resources */,
 				655D897F19CE0A4F00BF0350 /* LaunchScreen.xib in Resources */,
+				655D899D19CE15CE00BF0350 /* page3.png in Resources */,
+				655D899E19CE15CE00BF0350 /* page4.png in Resources */,
+				655D899B19CE15CE00BF0350 /* page1.png in Resources */,
 				655D897C19CE0A4F00BF0350 /* Images.xcassets in Resources */,
+				655D899C19CE15CE00BF0350 /* page2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				655D897719CE0A4F00BF0350 /* ViewController.m in Sources */,
+				655D899619CE0C4300BF0350 /* PageContentViewController.m in Sources */,
 				655D897419CE0A4F00BF0350 /* AppDelegate.m in Sources */,
 				655D897119CE0A4F00BF0350 /* main.m in Sources */,
 			);
